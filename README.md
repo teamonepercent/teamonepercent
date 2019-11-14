@@ -22,8 +22,17 @@ email="corey@cryptocorey.com"
 github="teamonepercent"
 
 [[CURRENCIES]]
-toml="https://stellar/.well-known/CURRENCY.toml
-
+code="movez"
+issuer="GDP4DU3CVYRMOK4OM2ARAG43RYB4NVGGVXUH2A2BPI4FSEPPBW5EM5AQ"
+status="test"
+display_decimals=2
+anchor_asset_type="crypto"
+anchor_asset="XLM"
+name="crypto movez"
+is_asset_anchored="true"
+fixed_number=1000000000
+desc="test"
+image="https://cryptomovez.com/assets/CM_logo_white.png"
 
 
 
