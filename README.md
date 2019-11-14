@@ -34,6 +34,9 @@ fixed_number=1000000000
 desc="test"
 image="https://cryptomovez.com/assets/CM_logo_white.png"
 
-
+location = /cryptomovez.com/stellar.toml {
+  add_header 'Access-Control-Allow-Origin' '*';
+  default_type text/toml;
+}
 
 
