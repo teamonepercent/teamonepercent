@@ -1,0 +1,12 @@
+[build]
+base = "coin-info/"
+publish = "coin-info/build/"
+command = "npm run-script build"
+
+
+[[headers]]
+    for = "/.well-known/stellar.toml"
+    [headers.values]
+        Access-Control-Allow-Origin = "*"
+        Content-Type = "text/toml"
+        
